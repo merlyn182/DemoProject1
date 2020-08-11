@@ -16,6 +16,7 @@ public class HelloAppEngine extends HttpServlet {
       throws IOException {
 
     response.setContentType("text/plain");
+    //new Comment
     response.setCharacterEncoding("UTF-8");
 
     response.getWriter().print("Hello App Engine!\r\n");
